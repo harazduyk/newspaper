@@ -1,0 +1,96 @@
+body {
+    background-color: #e2e7ec;
+    padding: 5%;
+}
+
+
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 3%;
+}
+
+.header_div {
+    width: 786px;
+    height: 508px;
+    background-image: url(./photo/photo1.png);
+    font-family: 'Nanum Gothic', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.header_div h5 {
+    opacity: 0.5;
+    font-size: 13px;
+    line-height: 2.5;
+    font-weight: 500;
+    color: #ffffff;
+    position: absolute;
+    bottom: 32%;
+    left: 13%;
+}
+
+.header_div h1 {
+    width: 35%;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 900;
+    color: #ffffff;
+    position: absolute;
+    bottom: 19%;
+    left: 13%;
+}
+
+.div {
+    width: 26.6%;
+    background-color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+
+.div h4 {
+    font-size: 13px;
+    color: #818181;
+    margin-left: 8%;
+}
+
+.div h2 {
+    font-size: 22px;
+    color: #1d1d1d;
+    margin: 0 0 15% 8%;
+}
+
+.div .icon {
+    margin: 0 0 5% 8%;
+}
+
+.div .block_4_text {
+    margin-top: 14%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer .loading {
+    height: 5%;
+    margin: 0.5% 1% 0 0;
+}
+
+.footer p {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #99a5b0;
+}
+
+div:hover {
+    background-color: rgba(51, 51, 51, 0.329);
+}
